@@ -2,12 +2,12 @@
 
 /* merriweather-300 - latin_cyrillic */
 @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 300;
-    src: local(''),
-         url('../fonts/merriweather-v30-latin_cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/merriweather-v30-latin_cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 300;
+src: local(''),
+        url('../fonts/merriweather-v30-latin_cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/merriweather-v30-latin_cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* merriweather-regular - latin_cyrillic */
@@ -31,6 +31,37 @@ src: local(''),
 }
 
 
+/* poppins-300 - latin */
+@font-face {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+src: local(''),
+        url('../fonts/poppins-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-regular - latin */
+@font-face {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+src: local(''),
+        url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-700 - latin */
+@font-face {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+src: local(''),
+        url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/poppins-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
 /* General */
 
 html {
@@ -41,28 +72,100 @@ html {
     box-sizing: inherit;
 }
 
-.box {
+.contentBox {
     max-width: 1220px;
     margin: 0 auto;  
 }
 
+a {
+    text-decoration: none;
+}
 
-
-
+body {
+    font-family: 'Poppins';
+    color: white;
+    background-color: rgb(18, 18, 24)
+}
 
 
 
 /* Header */
 
+header {
+    padding-top: 15px;
+    /* background-color: black; */
+    /* padding-bottom: 1px; */
+}
+
+.headerNav {
+    /* background-color: black; */
+}
+
+.theHeader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.headerLink:first-child {
+    margin-left: 50px;
+}
+
+.headerLink {
+    margin-right: 50px;
+    color: white;
+    /* background-color: black; */
+    font-weight: 600;
+}
 
 
 
 
+/* About me */
 
+.aboutMe {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    margin-bottom: 50px;
+}
 
+.imgAboutMe {
+    max-width: 500px;
+    margin-right: 50px;
+}
 
+h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
 
+.nameAboutMe {
+    max-width: 500px;
+    margin-bottom: 30px;
+}
 
+.professionAboutMe {
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.linksAboutMe {
+    margin-bottom: 5px;
+}
+
+.textAboutMe {
+    margin-bottom: 20px;
+}
 
 
 
