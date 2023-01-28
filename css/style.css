@@ -190,6 +190,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    padding-bottom: 50px;
 }
 
 .textForInfo {
@@ -207,6 +208,15 @@ h3 {
 .rightColumn {
     max-width: 500px;
 }
+
+.lastP {
+    padding-bottom: 50px;
+}
+
+.imgMyCodewars {
+    max-width: 500px;
+}
+
 
 
 
